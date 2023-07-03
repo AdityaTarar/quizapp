@@ -16,6 +16,7 @@ exports.addQuestions = (req, res) => {
     correctAnswer: req.body.correctAnswer,
     createdBy: req.body.createdBy,
     status: "draft",
+    type: req.body.type,
   });
 
   question.save((err, question) => {

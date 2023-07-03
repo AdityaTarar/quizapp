@@ -17,6 +17,9 @@ const Results = mongoose.model(
     startTime: String,
     endTime: String,
     date: Date,
+    mindScore: String,
+    bodyScore: String,
+    soulScore: String,
   })
 );
 

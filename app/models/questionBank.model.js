@@ -26,6 +26,7 @@ const QuestionBank = mongoose.model(
       },
     ],
     status: String,
+    type: String,
   })
 );
 

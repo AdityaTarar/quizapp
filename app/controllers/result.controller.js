@@ -17,6 +17,9 @@ exports.submitResults = (req, res) => {
     startTime: req.body.startTime,
     endTime: req.body.endTime,
     date: req.body?.date,
+    mindScore: req.body?.mindScore,
+    bodyScore: req.body?.bodyScore,
+    soulScore: req.body?.soulScore,
   });
   console.log("results", result);
   result.save((err, result) => {
